@@ -53,8 +53,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\GestorDeNiveles.cs" />
      <Compile Include="Assets\Scripts\InputPlayer.cs" />
+     <Compile Include="Assets\Scripts\Interactivo.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+ <Reference Include="Cinemachine">
+ <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.PixelPerfect.Editor">
+ <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.SpriteShape.Editor">
+ <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
@@ -64,14 +75,29 @@
  <Reference Include="Unity.PackageManagerUI.Editor">
  <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <Reference Include="Unity.InternalAPIEngineBridge.001">
+ <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.PixelPerfect.Editor">
- <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+ <Reference Include="Unity.2D.Common.Runtime">
+ <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.SpriteShape.Runtime">
+ <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.PixelPerfect">
  <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Editor">
+ <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.001">
+ <HintPath>D:/Desktop/CursosUnity/RPG 2D CURSO UNITY/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>G:/Programs/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
