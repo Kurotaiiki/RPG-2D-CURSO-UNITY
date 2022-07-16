@@ -20,8 +20,7 @@ public class PlayerController : MonoBehaviour {
 		miRigidbody2D = GetComponent<Rigidbody2D>();
 		animator = GetComponent<Animator>();
 		miSprite = GetComponent<SpriteRenderer>();
-        correrHashCode = Animator.StringToHash("Corriendo");
-		
+        correrHashCode = Animator.StringToHash("Corriendo");		
 	}
 
 
@@ -41,7 +40,7 @@ public class PlayerController : MonoBehaviour {
         else
         {
             animator.SetBool(correrHashCode, false);
-            Debug.Log("pruebas");
+            
         }
 
     }

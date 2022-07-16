@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4679974529157636}
   - component: {fileID: 114421726598905250}
   - component: {fileID: 114642826621897772}
+  - component: {fileID: 114934751069274948}
   m_Layer: 0
   m_Name: Camara virtual 2D
   m_TagString: Untagged
@@ -310,3 +311,14 @@ MonoBehaviour:
   m_MaximumFOV: 60
   m_MinimumOrthoSize: 1
   m_MaximumOrthoSize: 5000
+--- !u!114 &114934751069274948
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1311602752797240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a51aca001f9c63d468db82270e93ec55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
