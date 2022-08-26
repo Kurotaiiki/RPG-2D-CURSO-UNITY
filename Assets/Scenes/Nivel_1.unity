@@ -176,6 +176,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4657382188306088, guid: b1f62f6a9e546494bbb1c9be0a4c30f9,
     type: 2}
   m_PrefabInternal: {fileID: 1932869047}
+--- !u!1 &377418711 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1142908896517314, guid: 3decd943e4eb26d4bbfa968659dfdc21,
+    type: 2}
+  m_PrefabInternal: {fileID: 1075634192}
+--- !u!114 &377418714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 377418711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee61dcf7850b57548a1b7fe99396852f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!60 &697537446 stripped
 PolygonCollider2D:
   m_CorrespondingSourceObject: {fileID: 60724565454412356, guid: 19193c3564788954d809021b82c05007,
@@ -319,6 +335,19 @@ Prefab:
       propertyPath: m_BoundingShape2D
       value: 
       objectReference: {fileID: 697537446}
+    - target: {fileID: 114421726598905250, guid: 12d8ba4ae07dd65499c18048a8a7269c,
+        type: 2}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 176347213}
+    - target: {fileID: 4679974529157636, guid: 12d8ba4ae07dd65499c18048a8a7269c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4679974529157636, guid: 12d8ba4ae07dd65499c18048a8a7269c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12d8ba4ae07dd65499c18048a8a7269c, type: 2}
   m_IsPrefabAsset: 0

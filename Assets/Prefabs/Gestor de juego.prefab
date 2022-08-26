@@ -53,4 +53,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSpawnPoint: {fileID: 0}
   jugador: {fileID: 0}
-  pjTag: 
+  pjTag: Player

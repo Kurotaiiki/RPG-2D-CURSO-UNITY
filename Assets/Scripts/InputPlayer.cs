@@ -30,11 +30,5 @@ public class InputPlayer : MonoBehaviour {
 		//Definir ejes de movimiento
 		ejeHorizontal = Input.GetAxis("Horizontal");
 		ejeVertical = Input.GetAxis("Vertical");
-
-
-
-
-
-
 	}
 }

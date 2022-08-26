@@ -7,12 +7,12 @@ public class CamaraController : MonoBehaviour {
 
 	// Use this for initialization
 	private CinemachineVirtualCamera cv;
+	public GameObject jugador;
 
 	private void Start ()
     {
 		cv = GetComponent<CinemachineVirtualCamera>();
 		Transform jugador = GameManager.instance.jugador.transform;
-		Debug.Log(jugador.tag);
 		cv.m_Follow = jugador;
     }
 }

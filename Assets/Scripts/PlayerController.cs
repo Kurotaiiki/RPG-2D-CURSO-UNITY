@@ -65,7 +65,6 @@ public class PlayerController : MonoBehaviour {
         animator.SetFloat("X", horizontal);
         animator.SetFloat("Y", vertical);
     }
-
     void FixedUpdate () {
 
 		#region MOVIMIENTO 

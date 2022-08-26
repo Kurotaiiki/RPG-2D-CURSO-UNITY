@@ -10,13 +10,19 @@ public class GameManager : MonoBehaviour {
 	[HideInInspector]
 	public GameObject jugador;
 	public string pjTag;
-	public static GameManager instance;
+	public static GameManager instance { get; private set;  }
 
-	// Use this for initialization
+	public void Awake()
+    {
+		if (instance == null)
+        {
+			instance = this;
+        }
+    }
 	void Start () 
 	{
-		instance = this;
-		jugador = GameObject.FindGameObjectWithTag(pjTag);
+		
+		jugador = GameObject.FindGameObjectWithTag("Player");
 		jugador.transform.position = playerSpawnPoint.position;
 
 	}
