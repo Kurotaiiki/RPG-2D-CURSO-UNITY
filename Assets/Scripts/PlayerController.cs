@@ -12,11 +12,13 @@ public class PlayerController : MonoBehaviour {
 	private Rigidbody2D miRigidbody2D;
 	private Animator animator;
 	private SpriteRenderer miSprite;
+    private Atributos atributosJugador;
     int correrHashCode;
 
 
 	void Start () {
-		inputJugador = GetComponent<InputPlayer>();
+        atributosJugador = GetComponent<Atributos>();
+        inputJugador = GetComponent<InputPlayer>();
 		miRigidbody2D = GetComponent<Rigidbody2D>();
 		animator = GetComponent<Animator>();
 		miSprite = GetComponent<SpriteRenderer>();
@@ -69,7 +71,7 @@ public class PlayerController : MonoBehaviour {
 
 		#region MOVIMIENTO 
 
-		Vector2 vectorVelocidad = new Vector2 (horizontal, vertical)*velocidad;
+		Vector2 vectorVelocidad = new Vector2 (horizontal, vertical)*atributosJugador.velocidad;
 		miRigidbody2D.velocity = vectorVelocidad;
 
         #endregion MOVIMIENTO
